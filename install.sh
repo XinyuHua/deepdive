@@ -9,7 +9,7 @@ set -euo pipefail
 
 : ${GITHUB_BASEURL:=https://github.com/XinyuHua/deepdive}
 : ${INSTALLER_BRANCH:=master}   # the branch from which the installer scripts should be downloaded
-INSTALLER_HOME_URL="$GITHUB_BASEURL"/blob/master/install
+INSTALLER_HOME_URL="$GITHUB_BASEURL"/master/install
 INSTALLER_HOME_DIR=$(dirname "$0")/install
 
 # see if running from the git repo
