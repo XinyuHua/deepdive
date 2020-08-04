@@ -7,7 +7,7 @@ set -euo pipefail
 : ${PREFIX:=~/local}        # the path to install deepdive
 : ${GITCLONE:=deepdive}     # the path to clone deepdive's repo
 
-: ${GITHUB_BASEURL:=https://github.com/XinyuHua/deepdive}
+: ${GITHUB_BASEURL:=https://raw.githubusercontent.com/XinyuHua/deepdive}
 : ${INSTALLER_BRANCH:=master}   # the branch from which the installer scripts should be downloaded
 INSTALLER_HOME_URL="$GITHUB_BASEURL"/master/install
 INSTALLER_HOME_DIR=$(dirname "$0")/install
